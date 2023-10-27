@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  line-height: 2;
+}
+
+li{
+  margin:10px 0; 
+  list-style-position: inside;
+}
+
+code{
+  display: block;
+  padding:10px 20px;
+  margin:20px 0 ;
+  background-color: rgba(255, 255, 255, 0.418);
+  overflow: auto;
+}
+#preview>.preview>*{
+  margin:10px 0;
+}
